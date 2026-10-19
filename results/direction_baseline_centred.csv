@@ -1,0 +1,3 @@
+cls,scope,n_test,drop_diffmean_dir_centred,null_mean
+NEG,span,51,0.037370756,0.0012177423
+POS,span,49,0.054535165,-0.0013188252

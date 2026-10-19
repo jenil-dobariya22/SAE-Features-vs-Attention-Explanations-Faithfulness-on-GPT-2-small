@@ -1,0 +1,47 @@
+{
+  "QUICK": false,
+  "seed": 0,
+  "layer": 8,
+  "sae_release": "gpt2-small-res-jb",
+  "hook": "blocks.8.hook_resid_pre",
+  "n_per_class": 100,
+  "n_evaluated": 200,
+  "class_counts": {
+    "0": 100,
+    "1": 100
+  },
+  "few_shot_accuracy_sst2_val": 0.658256880733945,
+  "ks": [
+    1,
+    2,
+    3,
+    5,
+    8
+  ],
+  "r_random": 3,
+  "kf": [
+    1,
+    5,
+    10,
+    20,
+    50
+  ],
+  "r_feat": 5,
+  "r_dir": 15,
+  "eps_denom": 0.25,
+  "prompt_prefix": "Review: a gorgeous , witty and deeply moving film .\nSentiment: positive\n\nReview: a dull , lifeless mess with no redeeming qualities .\nSentiment: negative\n\nReview: the performances are wonderful and the story is engaging .\nSentiment: positive\n\nReview: it is boring , predictable and far too long .\nSentiment: negative\n\nReview:",
+  "prompt_suffix": "\nSentiment:",
+  "versions": {
+    "torch": "2.14.0",
+    "transformer-lens": "3.9.0",
+    "sae-lens": "6.54.4",
+    "datasets": "5.0.1",
+    "pandas": "3.0.6",
+    "scipy": "1.17.1",
+    "numpy": "2.4.6",
+    "matplotlib": "3.11.2"
+  },
+  "splice_mean_margin_orig": 0.22796751976013183,
+  "splice_mean_margin_sae": 0.22035242080688477,
+  "splice_fraction_still_correct": 0.68
+}
